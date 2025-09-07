@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PPA2025Mock", "PPA2025Mock.csproj", "{93A76AA8-4D48-4EE1-A472-0AD428FABD20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93A76AA8-4D48-4EE1-A472-0AD428FABD20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A76AA8-4D48-4EE1-A472-0AD428FABD20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A76AA8-4D48-4EE1-A472-0AD428FABD20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A76AA8-4D48-4EE1-A472-0AD428FABD20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11239380-7B28-4235-B246-B09F66C3E31B}
+	EndGlobalSection
+EndGlobal
