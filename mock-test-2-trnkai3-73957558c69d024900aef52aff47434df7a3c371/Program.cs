@@ -1,12 +1,14 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using PPA2025Mock.Data;
+using PPA2025Mock.Areas.Identity.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("PPA2025MockContextConnection") ?? throw new InvalidOperationException("Connection string 'PPA2025MockContextConnection' not found.");
 
 builder.Services.AddDbContext<PPA2025MockContext>(options => options.UseSqlServer(connectionString));
 
-builder.Services.AddDefaultIdentity<PPA2025MockUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<PPA2025MockContext>();
+builder.Services.AddDefaultIdentity<PPA2025MockUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<PPA2025MockContext>();
 
 // Add services to the container.
 builder.Services.AddRazorPages();
